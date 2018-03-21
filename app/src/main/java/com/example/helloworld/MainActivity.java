@@ -5,6 +5,8 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    int i=1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -12,5 +14,9 @@ public class MainActivity extends AppCompatActivity {
     }
     private void TestUpload(){
         int i = 1+1;
+
+        int ii = 2+2;
+
+        int iii = i+ii;
     }
 }
